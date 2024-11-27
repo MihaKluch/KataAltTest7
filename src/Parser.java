@@ -30,7 +30,7 @@ String oper = null;
         }
 
         if (rez.length()>40){
-            rez = rez.substring(0,40) +"...";
+            rez = rez.substring(0,41) +"..." + "\"";
         }
 
         return rez;
