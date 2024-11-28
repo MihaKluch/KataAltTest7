@@ -16,7 +16,7 @@ public class Rezultat {
         String hhppp = hhpp.replace("-", "");
 
         r = "\"" + hhppp + "\"";
-        return r;
+        return hhppp;
     }
 
     static String plus(String hh) {
