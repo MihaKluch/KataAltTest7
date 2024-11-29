@@ -11,12 +11,15 @@ public class Rezultat {
         int kov3 = hh.indexOf("\"", kov2 + 1);
         int kov4 = hh.indexOf("\"", kov3 + 1);
         str2 = hh.substring(kov3 + 1, kov4);
-        hh = hh.replace("\"", "");
-        String hhpp = hh.replace(str2, "");
-        String hhppp = hhpp.replace("-", "");
 
-        r = "\"" + hhppp + "\"";
-        return hhppp;
+//        hh = hh.replace("\"", "");
+       str1 = str1.replace("\"", "");
+        str2 = str2.replace("\"", "");
+        String hhpp = str1.replace(str2, "");
+//        String hhppp = hhpp.replace("-", "");
+
+        r = "\"" + hhpp + "\"";
+        return r;
     }
 
     static String plus(String hh) {
